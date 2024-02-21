@@ -2,6 +2,8 @@ import { uid } from "@/src/core/codec";
 import * as core from "@/src/core"
 import core2, {uid as K} from "@/src/core"
 
+export { Foo as KFoo } from "@/src/core/codec"
+
 export const doSomething  = () => uid()
 export const doSomething3  = () => {
     core.asyncFoo
@@ -17,3 +19,5 @@ console.log("KKKK")
 
 console.log(core)
 console.log(core2)
+
+new core.Foo

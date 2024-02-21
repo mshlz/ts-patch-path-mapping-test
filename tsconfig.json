@@ -110,7 +110,8 @@
     "skipLibCheck": true,                                /* Skip type checking all .d.ts files. */
     "plugins": [
       // Source Transformers
-      { "transform": "typescript-transform-paths",  "exclude": [ "**/node_modules/**" ] },
+      { "transform": "typescript-transform-paths",  "exclude": [ "**/node_modules/**" ]  },
+      { "transform": "typescript-transform-paths",  "exclude": [ "**/node_modules/**" ], "afterDeclarations": true  },
     ]
   }
 }
