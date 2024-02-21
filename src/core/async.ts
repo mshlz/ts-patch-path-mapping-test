@@ -1,0 +1,1 @@
+export const asyncFoo = async () => Promise.resolve(true)

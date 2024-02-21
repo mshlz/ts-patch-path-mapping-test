@@ -1,0 +1,26 @@
+{
+  "name": "tspaths-mapping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tspc",
+    "test": "node build/services/__/foo/bar/baz.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-patch": "3.1.2",
+    "typescript": "5.3.3",
+    "typescript-transform-paths": "3.4.7"
+  },
+  "volta": {
+    "node": "20.11.1",
+    "yarn": "4.1.0"
+  },
+  "dependencies": {
+    "axios": "1.6.7",
+    "ulid": "2.3.0"
+  }
+}
